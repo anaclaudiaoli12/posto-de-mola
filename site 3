@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Posto de Molas Catalão</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Barlow', sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: #1c1c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 250px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background: #e60000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('truck-banner.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 2.8em;
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      display: inline-block;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .about, .services, .contact {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #e60000;
+      margin-bottom: 20px;
+    }
+    .services-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .service-item {
+      flex: 1 1 250px;
+      background: #efefef;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .service-item img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #1c1c1c;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9em;
+    }
+    .contact-info a {
+      display: block;
+      color: #222;
+      margin-top: 10px;
+      text-decoration: none;
+    }
+    .instagram {
+      margin-top: 20px;
+    }
+    @media(max-width: 768px) {
+      nav { flex-direction: column; }
+      .hero h1 { font-size: 1.8em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Posto de Molas Catalão" />
+    <h1>Posto de Molas Catalão</h1>
+    <p>Autopeças e Oficina Especializada em Caminhões</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+    <a href="https://instagram.com/postodemolascatalao" target="_blank">Instagram</a>
+  </nav>
+
+  <div class="hero">
+    <h1>O melhor serviço e autopeças de Catalão-GO</h1>
+  </div>
+
+  <section id="sobre" class="about">
+    <h2>Sobre Nós</h2>
+    <p>
+      Localizado em Catalão - GO, o Posto de Molas Catalão é referência em manutenção de molas, rodas e freios para caminhões. 
+      Trabalhamos com peças de qualidade e atendimento especializado. Nossa missão é garantir segurança e excelência para o seu veículo pesado.
+    </p>
+  </section>
+
+  <section id="servicos" class="services">
+    <h2>Nossos Serviços</h2>
+    <div class="services-list">
+      <div class="service-item">
+        <img src="icone-molas.png" alt="Molas">
+        <h3>Molas</h3>
+        <p>Manutenção e troca de molas com qualidade e segurança.</p>
+      </div>
+      <div class="service-item">
+        <img src="icone-rodas.png" alt="Rodas">
+        <h3>Rodas</h3>
+        <p>Balanceamento, alinhamento e venda de rodas para caminhões.</p>
+      </div>
+      <div class="service-item">
+        <img src="icone-freios.png" alt="Freios">
+        <h3>Freios</h3>
+        <p>Revisão completa do sistema de freios com peças originais.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <h2>Contato</h2>
+    <div class="contact-info">
+      <p><strong>Hudson:</strong> (64) 9 9999-9999</p>
+      <p><strong>Núbia:</strong> (64) 9 8888-8888</p>
+      <a href="https://www.instagram.com/postodemolascatalao/" target="_blank">@postodemolascatalao</a>
+    </div>
+    <div class="instagram">
+      <img src="icone-instagram.png" alt="Instagram" width="40"/>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Posto de Molas Catalão. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
